@@ -27,3 +27,55 @@
 .h6 {
     font-size: $heading-h6;
 }
+
+@include bp-m {
+    .h1\@m {
+    font-size: $heading-h1;
+}
+
+    .h2\@m {
+        font-size: $heading-h2;
+    }
+
+    .h3\@m {
+        font-size: $heading-h3;
+    }
+
+    .h4\@m {
+        font-size: $heading-h4;
+    }
+
+    .h5\@m {
+        font-size: $heading-h5;
+    }
+
+    .h6\@m {
+        font-size: $heading-h6;
+    }
+}
+
+@include bp-l {
+    .h1\@l {
+    font-size: $heading-h1;
+}
+
+    .h2\@l {
+        font-size: $heading-h2;
+    }
+
+    .h3\@l {
+        font-size: $heading-h3;
+    }
+
+    .h4\@l {
+        font-size: $heading-h4;
+    }
+
+    .h5\@l {
+        font-size: $heading-h5;
+    }
+
+    .h6\@l {
+        font-size: $heading-h6;
+    }
+}

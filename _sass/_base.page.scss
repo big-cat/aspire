@@ -56,7 +56,8 @@ figcaption {
 
 hr {
     border: 0;
-    border-top: 2px solid $base-text-color;
-    width: 100px;
-    margin: $base-spacing-unit auto;
+    border-top: 1px solid #cccaca;
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;;
 }
