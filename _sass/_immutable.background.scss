@@ -1,0 +1,16 @@
+// # immutable.background
+// ============================================================================
+//
+// Immutable background styles
+
+.bg-s--cover {
+    background-size: cover;
+}
+
+.bg-s--contain {
+    background-size: contain;
+}
+
+.bg-p--50-50 {
+    background-position: 50% 50%;
+}

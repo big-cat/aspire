@@ -1,0 +1,75 @@
+// # immutable.border-radius
+// ============================================================================
+//
+// Immutable border-radius styles
+
+$border-radius:    2px !default;
+$border-radius-s:  $border-radius / 2 !default;
+$border-radius-l:  $border-radius * 2 !default;
+
+.b-r {
+    border-radius: $border-radius;
+}
+
+.b-r-s {
+    border-radius: $border-radius-s;
+}
+
+.b-r-l {
+    border-radius: $border-radius-l;
+}
+
+
+.b-r-t {
+    border-radius: $border-radius $border-radius 0 0;
+}
+
+
+.b-r-t--s {
+    border-radius: $border-radius-s $border-radius-s 0 0;
+}
+
+.b-r-t--l {
+    border-radius: $border-radius-l $border-radius-l 0 0;
+}
+
+
+.b-r-r {
+    border-radius: 0 $border-radius $border-radius 0;
+}
+
+.b-r-r--s {
+    border-radius: 0 $border-radius-s $border-radius-s 0;
+}
+
+.b-r-r--l {
+    border-radius: 0 $border-radius-l $border-radius-l 0;
+}
+
+.b-r-b {
+    border-radius: 0 0 $border-radius $border-radius;
+}
+
+.b-r-b--s {
+    border-radius: 0 0 $border-radius-s $border-radius-s;
+}
+
+.b-r-b--l {
+    border-radius: 0 0 $border-radius-l $border-radius-l;
+}
+
+.b-r-l {
+    border-radius: $border-radius 0 0 $border-radius;
+}
+
+.b-r-l--s {
+    border-radius: $border-radius-s 0 0 $border-radius-s;
+}
+
+.b-r-l--l {
+    border-radius: $border-radius-l 0 0 $border-radius-l;
+}
+
+.b-r-c {
+    border-radius: 50%;
+}

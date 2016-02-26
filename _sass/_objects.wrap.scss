@@ -1,0 +1,17 @@
+//
+// objects.wrap
+// ============================================================================
+// Wrap styles
+//
+
+$wrap-width: 1100px !default;
+
+$wrap-padding: 20px !default;
+
+.wrap {
+    max-width: $wrap-width;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $wrap-padding;
+    padding-left: $wrap-padding;
+}

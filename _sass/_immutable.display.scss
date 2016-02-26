@@ -1,0 +1,70 @@
+// # immutable.display
+// ============================================================================
+//
+// Immutable display styles
+
+.d--t {
+    display: table;
+}
+
+.d--t-c {
+    display: table-cell;
+}
+
+.d--b {
+    display: block;
+}
+
+.d--i-b {
+    display: inline-block;
+}
+
+.d--n {
+    display: none;
+}
+
+@include bp-m {
+    
+    .d--t\@m {
+    display: table;
+    }
+
+    .d--t-c\@m {
+        display: table-cell;
+    }
+
+    .d--b\@m {
+        display: block;
+    }
+
+    .d--i-b\@m {
+        display: inline-block;
+    }
+
+    .d--n\@m {
+        display: none;
+    }
+}
+
+@include bp-l {
+    
+    .d--t\@l {
+    display: table;
+    }
+
+    .d--t-c\@l {
+        display: table-cell;
+    }
+
+    .d--b\@l {
+        display: block;
+    }
+
+    .d--i-b\@l {
+        display: inline-block;
+    }
+
+    .d--n\@l {
+        display: none;
+    }
+}

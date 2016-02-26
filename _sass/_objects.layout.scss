@@ -1,0 +1,82 @@
+//
+// objects.layout
+// ============================================================================
+// Layout object styles
+//
+
+$layout-columns: 12 !default;
+
+$layout-gutter:  24px !default;
+
+.layout {
+    list-style: none;
+    margin-left: -$layout-gutter;
+}
+
+.layout__item {
+    display: inline-block;
+    padding-left: $layout-gutter;
+    margin-right: -.25em;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.layout__item--centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout--flush {
+    margin-left: 0;
+    width: 100%;
+    
+    .layout__item {
+        padding-left: 0;
+    }
+}
+
+@for $i from 1 through $layout-columns {
+    .width--#{$i}-of-#{$layout-columns} {
+        width: percentage($i/$layout-columns);
+    }
+    
+    .width--push-#{$i}-of-#{$layout-columns} {
+        margin-left: percentage($i/$layout-columns);
+    }
+    
+    .width--pull-#{$i}-of-#{$layout-columns} {
+        margin-left: - (percentage($i/$layout-columns));
+    }
+    
+}
+
+@include bp-m {
+
+    @for $i from 1 through $layout-columns {
+        .width--#{$i}-of-#{$layout-columns}\@m {
+            width: percentage($i/$layout-columns);
+        }
+        .width--push-#{$i}-of-#{$layout-columns}\@m {
+        margin-left: percentage($i/$layout-columns);
+        }
+        .width--pull-#{$i}-of-#{$layout-columns}\@m {
+        margin-left: - (percentage($i/$layout-columns));
+        }
+    }
+}
+
+@include bp-l {
+
+    @for $i from 1 through $layout-columns {
+        .width--#{$i}-of-#{$layout-columns}\@l {
+            width: percentage($i/$layout-columns);
+        }
+        .width--push-#{$i}-of-#{$layout-columns}\@l {
+        margin-left: percentage($i/$layout-columns);
+        }
+        .width--pull-#{$i}-of-#{$layout-columns}\@l {
+        margin-left: - (percentage($i/$layout-columns));
+        }
+    }
+}
