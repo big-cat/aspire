@@ -1315,7 +1315,7 @@ ul, ol, dd {
   background-color: #ffffff; }
 
 .c-primary {
-  color: #0072CE; }
+  color: #0072CE !important; }
 
 .c-secondary {
   color: #585858; }
