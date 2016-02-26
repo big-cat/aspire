@@ -1,0 +1,40 @@
+//
+// base.heading
+// ============================================================================
+// Base heading styles
+//
+
+$heading-h1: 36px !default;
+$heading-h2: 30px !default;
+$heading-h3: 24px !default;
+$heading-h4: 20px !default;
+$heading-h5: 16px !default;
+$heading-h6: 14px !default;
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: $heading-h1;
+}
+
+h2 {
+    font-size: $heading-h2;
+}
+
+h3 {
+    font-size: $heading-h3;
+}
+
+h4 {
+    font-size: $heading-h4;
+}
+
+h5 {
+    font-size: $heading-h5;
+}
+
+h6 {
+    font-size: $heading-h6;
+}

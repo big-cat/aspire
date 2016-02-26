@@ -1,0 +1,24 @@
+//
+// settings.colors
+// ============================================================================
+// Color variables
+//
+
+$color-black: #121212 !default;
+$color-white: #f2f2f2 !default;
+
+$color-primary:       #d61e3a !default;
+$color-primary-light: lighten($color-primary, 25%) !default;
+$color-primary-dark:  darken($color-primary, 25%) !default;
+
+$color-secondary:       #585858 !default;
+$color-secondary-light: lighten($color-secondary, 25%) !default;
+$color-secondary-dark:  darken($color-secondary, 25%) !default;
+
+$color-meta:       #f7f7f7 !default;
+$color-meta-light: lighten($color-meta, 25%) !default;
+$color-meta-dark:  darken($color-meta, 25%) !default;
+
+$color-accent:       #3f76de !default;
+$color-accent-light: lighten($color-accent, 25%) !default;
+$color-accent-dark:  darken($color-accent, 25%) !default;

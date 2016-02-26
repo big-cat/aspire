@@ -1,0 +1,62 @@
+//
+// base.page
+// ============================================================================
+// Base page styles
+//
+
+html, :root {
+    font-family: $base-font-sans;
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+    line-height: $base-line-height;
+    color: $base-text-color;
+    background-color: $base-background-color;
+    width:100%;
+    height: 100%;
+    
+    @include bp-m {
+        font-size: $base-font-size * 1.07;
+    }
+    
+    @include bp-l {
+        font-size: $base-font-size * 1.14;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a, a:visited {
+    color: inherit;
+    cursor: pointer;
+}
+
+a img {
+    border: none;
+}
+
+img,
+figure {
+  max-width: 100%;
+    height: auto; 
+}
+
+ul, ol {
+    list-style-position: outside;
+    margin-left: 1em;
+}
+ 
+figcaption {
+    font-family: $base-font-sans;
+    font-size: $small-font-size;
+    color: $color-meta;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid $base-text-color;
+    width: 100px;
+    margin: $base-spacing-unit auto;
+}

@@ -1,0 +1,19 @@
+//
+// generic.shared
+// ============================================================================
+// Properties shared, typically between many selectors
+//
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+    margin-bottom: $base-spacing-unit;
+}
+
+ul, ol, dd {
+    margin-left: $base-spacing-unit;
+}

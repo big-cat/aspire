@@ -1,0 +1,40 @@
+// # components.button
+// ============================================================================
+//
+// Button object styles
+
+$button-color: $color-accent !default;
+
+$button-padding: $base-spacing-unit / 2 !default;
+
+$button-border-width: 2px !default;
+
+$button-border-radius: 4px !default;
+
+.btn {
+    padding: $button-padding;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn--border {
+    border: $button-border-width solid $button-color;
+    border-radius: $button-border-radius;
+    color: $color-accent;
+    
+    &:hover {
+        background-color: $button-color;
+        color: $color-white;
+    }
+}
+
+.btn--border-white {
+    border: $button-border-width solid $color-white;
+    border-radius: $button-border-radius;
+    color: $color-white;
+    
+    &:hover {
+        background-color: $color-white;
+        color: $button-color;
+    }
+}

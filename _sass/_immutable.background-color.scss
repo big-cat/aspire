@@ -1,0 +1,44 @@
+// # immutable.background-color
+// ============================================================================
+//
+// Immutable background color styles
+
+.bg-primary {
+    background-color: $color-primary;
+}
+
+.bg-primary--light {
+    background-color: $color-primary-light;
+}
+
+.bg-primary--dark {
+    background-color: $color-primary-dark;
+}
+
+.bg-secondary {
+    background-color: $color-secondary;
+}
+
+.bg-secondary--light {
+    background-color: $color-secondary-light;
+}
+
+.bg-secondary--dark {
+    background-color: $color-secondary-dark;
+}
+
+.bg-meta {
+    background-color: $color-meta;
+}
+
+.bg-meta--light {
+    background-color: $color-meta-light;
+}
+
+.bg-meta--dark {
+    background-color: $color-meta-dark;
+}
+
+.bg-white--70 {
+    background-color: rgba(255, 255, 255, .7);
+}
