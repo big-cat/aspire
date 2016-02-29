@@ -11,6 +11,11 @@ input {
     padding: 12px;
     width: 100%;
     border-radius: 0;
+    
+    &:focus {
+        border-bottom: 1px solid #0072CE;
+        padding: 12px 12px 11px 12px;
+    }
 }
 
 button {
@@ -22,4 +27,7 @@ button {
     background-color: #0072CE;
     color: white !important;
     width: 100%;
+    &:hover {
+        background-color: #0062b1;
+    }
 }
